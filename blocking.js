@@ -16,6 +16,10 @@ crypto.pbkdf2("password", "salt", 50000, 50, "sha512", (err, key) => {
     console.log("Second key is generated")
 })
 
+setTimeout(() => {
+    console.log("Call me right now!!!")
+}, 0) //* It will only be called once call stackof main theread is empty
+
 function multiplyFn(x, y) {
     const result = a * b;
     return result;
