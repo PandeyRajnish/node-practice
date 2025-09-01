@@ -20,3 +20,12 @@ function printA() {
 
 printA();
 console.log('Last line of the file.');
+
+//! Output
+//* a= 10
+//* Last line of the file.
+//* process.nextTick
+//* Promise
+//* Timer Expired
+//* setImmediate
+//* File Reading CB
